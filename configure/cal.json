@@ -1,0 +1,54 @@
+[
+    {
+        "Vessel": "A02",
+        "Tags": {
+            "RPM": [
+                "A02-PME-SPD-CALC,8",
+                "A02-PPS-SPD-CALC,12",
+                "A02-CME-SPD-CALC,8",
+                "A02-CPS-SPD-CALC,12",
+                "A02-SME-SPD-CALC,8",
+                "A02-SPS-SPD-CALC,12",
+                "A02-PAE-SPD-CALC,8",
+                "A02-SAE-SPD-CALC,8"
+            ],
+            "SPD": [
+                "A02-VES-GPS-DIS-TODAY",
+                "A02-VES-GPS-DIS-TODAY-AVG"
+            ],
+            "CONS":[
+                "PME",
+                "CME",
+                "SME",
+                "PAE",
+                "SAE"
+            ]
+        }
+    },
+    {
+        "Vessel": "A01",
+        "Tags": {
+            "RPM": [
+                "A01-PME-SPD-CALC,8",
+                "A01-PPS-SPD-CALC,12",
+                "A01-CME-SPD-CALC,8",
+                "A01-CPS-SPD-CALC,12",
+                "A01-SME-SPD-CALC,8",
+                "A01-SPS-SPD-CALC,12",
+                "A01-PAE-SPD-CALC,8",
+                "A01-SAE-SPD-CALC,8"
+            ],
+            "SPD": [
+                "A01-VES-GPS-DIS-TODAY",
+                "A01-VES-GPS-DIS-TODAY-AVG"
+            ],
+            "CONS":[
+                "PME",
+                "CME",
+                "SME",
+                "PAE",
+                "SAE"
+            ]
+        }
+    }
+]

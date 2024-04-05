@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async": "^3.2.5",
     "axios": "^1.6.8",
     "cron-parser": "^4.9.0",
     "long-timeout": "^0.1.1",
