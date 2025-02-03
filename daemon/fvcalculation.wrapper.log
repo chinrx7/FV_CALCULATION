@@ -1,0 +1,130 @@
+2025-01-15 15:58:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\FV_APP\FV_CALCULATION\node_modules\node-windows\lib\wrapper.js --file C:\FV_APP\FV_CALCULATION\app.js --scriptoptions= --log "FV CALCULATION wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-15 15:58:58 - Started 1284
+2025-01-15 18:10:25 - Stopping fvcalculation.exe
+2025-01-15 18:10:25 - ProcessKill 1284
+2025-01-15 18:10:25 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2025-01-15 18:10:30 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\FV_APP\FV_CALCULATION\node_modules\node-windows\lib\wrapper.js --file C:\FV_APP\FV_CALCULATION\app.js --scriptoptions= --log "FV CALCULATION wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-15 18:10:30 - Started 4148
+2025-01-30 15:46:30 - Stopping fvcalculation.exe
+2025-01-30 15:46:30 - ProcessKill 4148
+2025-01-30 15:46:30 - Found child process: 4164 Name: conhost.exe
+2025-01-30 15:46:30 - Found child process: 4764 Name: node.exe
+2025-01-30 15:46:30 - Stopping process 4164
+2025-01-30 15:46:30 - Send SIGINT 4164
+2025-01-30 15:46:30 - SIGINT to 4164 failed - Killing as fallback
+2025-01-30 15:46:30 - Stopping process 4764
+2025-01-30 15:46:30 - Send SIGINT 4764
+2025-01-30 15:46:30 - SIGINT to 4764 failed - Killing as fallback
+2025-01-30 15:46:30 - Stopping process 4148
+2025-01-30 15:46:30 - Send SIGINT 4148
+2025-01-30 15:46:30 - SIGINT to 4148 failed - Killing as fallback
+2025-01-30 15:46:30 - Finished fvcalculation.exe
+2025-01-30 15:46:31 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\FV_APP\FV_CALCULATION\node_modules\node-windows\lib\wrapper.js --file C:\FV_APP\FV_CALCULATION\app.js --scriptoptions= --log "FV CALCULATION wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-30 15:46:31 - Started 4796
+2025-01-30 15:47:56 - Stopping fvcalculation.exe
+2025-01-30 15:47:56 - ProcessKill 4796
+2025-01-30 15:47:57 - Found child process: 8064 Name: conhost.exe
+2025-01-30 15:47:57 - Found child process: 9116 Name: node.exe
+2025-01-30 15:47:57 - Stopping process 8064
+2025-01-30 15:47:57 - Send SIGINT 8064
+2025-01-30 15:47:57 - SIGINT to 8064 failed - Killing as fallback
+2025-01-30 15:47:57 - Stopping process 9116
+2025-01-30 15:47:57 - Send SIGINT 9116
+2025-01-30 15:47:57 - SIGINT to 9116 failed - Killing as fallback
+2025-01-30 15:47:57 - Stopping process 4796
+2025-01-30 15:47:57 - Send SIGINT 4796
+2025-01-30 15:47:57 - SIGINT to 4796 failed - Killing as fallback
+2025-01-30 15:47:57 - Finished fvcalculation.exe
+2025-01-30 15:47:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\FV_APP\FV_CALCULATION\node_modules\node-windows\lib\wrapper.js --file C:\FV_APP\FV_CALCULATION\app.js --scriptoptions= --log "FV CALCULATION wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-30 15:47:58 - Started 9828
+2025-01-30 15:50:05 - Stopping fvcalculation.exe
+2025-01-30 15:50:05 - ProcessKill 9828
+2025-01-30 15:50:05 - Found child process: 8228 Name: conhost.exe
+2025-01-30 15:50:05 - Found child process: 2888 Name: node.exe
+2025-01-30 15:50:05 - Stopping process 8228
+2025-01-30 15:50:05 - Send SIGINT 8228
+2025-01-30 15:50:05 - SIGINT to 8228 failed - Killing as fallback
+2025-01-30 15:50:05 - Stopping process 2888
+2025-01-30 15:50:05 - Send SIGINT 2888
+2025-01-30 15:50:05 - SIGINT to 2888 failed - Killing as fallback
+2025-01-30 15:50:05 - Stopping process 9828
+2025-01-30 15:50:05 - Send SIGINT 9828
+2025-01-30 15:50:05 - SIGINT to 9828 failed - Killing as fallback
+2025-01-30 15:50:05 - Finished fvcalculation.exe
+2025-01-30 15:54:06 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\FV_APP\FV_CALCULATION\node_modules\node-windows\lib\wrapper.js --file C:\FV_APP\FV_CALCULATION\app.js --scriptoptions= --log "FV CALCULATION wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-30 15:54:06 - Started 5828
+2025-01-30 16:04:02 - Stopping fvcalculation.exe
+2025-01-30 16:04:02 - ProcessKill 5828
+2025-01-30 16:04:02 - Found child process: 9636 Name: conhost.exe
+2025-01-30 16:04:02 - Found child process: 7016 Name: node.exe
+2025-01-30 16:04:02 - Stopping process 9636
+2025-01-30 16:04:02 - Send SIGINT 9636
+2025-01-30 16:04:02 - SIGINT to 9636 failed - Killing as fallback
+2025-01-30 16:04:02 - Stopping process 7016
+2025-01-30 16:04:02 - Send SIGINT 7016
+2025-01-30 16:04:02 - SIGINT to 7016 failed - Killing as fallback
+2025-01-30 16:04:02 - Stopping process 5828
+2025-01-30 16:04:02 - Send SIGINT 5828
+2025-01-30 16:04:02 - SIGINT to 5828 failed - Killing as fallback
+2025-01-30 16:04:02 - Finished fvcalculation.exe
+2025-01-30 16:04:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\FV_APP\FV_CALCULATION\node_modules\node-windows\lib\wrapper.js --file C:\FV_APP\FV_CALCULATION\app.js --scriptoptions= --log "FV CALCULATION wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-30 16:04:04 - Started 7936
+2025-01-30 16:16:43 - Stopping fvcalculation.exe
+2025-01-30 16:16:43 - ProcessKill 7936
+2025-01-30 16:16:43 - Found child process: 7752 Name: conhost.exe
+2025-01-30 16:16:43 - Found child process: 7092 Name: node.exe
+2025-01-30 16:16:44 - Stopping process 7752
+2025-01-30 16:16:44 - Send SIGINT 7752
+2025-01-30 16:16:44 - SIGINT to 7752 failed - Killing as fallback
+2025-01-30 16:16:44 - Stopping process 7092
+2025-01-30 16:16:44 - Send SIGINT 7092
+2025-01-30 16:16:44 - SIGINT to 7092 failed - Killing as fallback
+2025-01-30 16:16:44 - Stopping process 7936
+2025-01-30 16:16:44 - Send SIGINT 7936
+2025-01-30 16:16:44 - SIGINT to 7936 failed - Killing as fallback
+2025-01-30 16:16:44 - Finished fvcalculation.exe
+2025-01-30 16:16:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\FV_APP\FV_CALCULATION\node_modules\node-windows\lib\wrapper.js --file C:\FV_APP\FV_CALCULATION\app.js --scriptoptions= --log "FV CALCULATION wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-30 16:16:45 - Started 10968
+2025-01-30 16:44:04 - Stopping fvcalculation.exe
+2025-01-30 16:44:04 - ProcessKill 10968
+2025-01-30 16:44:04 - Found child process: 2908 Name: conhost.exe
+2025-01-30 16:44:04 - Found child process: 1412 Name: node.exe
+2025-01-30 16:44:04 - Stopping process 2908
+2025-01-30 16:44:04 - Send SIGINT 2908
+2025-01-30 16:44:04 - SIGINT to 2908 failed - Killing as fallback
+2025-01-30 16:44:04 - Stopping process 1412
+2025-01-30 16:44:04 - Send SIGINT 1412
+2025-01-30 16:44:04 - SIGINT to 1412 failed - Killing as fallback
+2025-01-30 16:44:04 - Stopping process 10968
+2025-01-30 16:44:04 - Send SIGINT 10968
+2025-01-30 16:44:04 - SIGINT to 10968 failed - Killing as fallback
+2025-01-30 16:44:04 - Finished fvcalculation.exe
+2025-01-30 16:44:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\FV_APP\FV_CALCULATION\node_modules\node-windows\lib\wrapper.js --file C:\FV_APP\FV_CALCULATION\app.js --scriptoptions= --log "FV CALCULATION wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-30 16:44:05 - Started 4184
+2025-01-31 10:24:03 - Stopping fvcalculation.exe
+2025-01-31 10:24:03 - ProcessKill 4184
+2025-01-31 10:24:04 - Found child process: 4572 Name: conhost.exe
+2025-01-31 10:24:04 - Found child process: 5164 Name: node.exe
+2025-01-31 10:24:04 - Stopping process 4572
+2025-01-31 10:24:04 - Send SIGINT 4572
+2025-01-31 10:24:04 - SIGINT to 4572 failed - Killing as fallback
+2025-01-31 10:24:04 - Stopping process 5164
+2025-01-31 10:24:04 - Send SIGINT 5164
+2025-01-31 10:24:04 - SIGINT to 5164 failed - Killing as fallback
+2025-01-31 10:24:04 - Stopping process 4184
+2025-01-31 10:24:04 - Send SIGINT 4184
+2025-01-31 10:24:04 - SIGINT to 4184 failed - Killing as fallback
+2025-01-31 10:24:04 - Finished fvcalculation.exe
+2025-01-31 10:33:37 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\FV_APP\FV_CALCULATION\node_modules\node-windows\lib\wrapper.js --file C:\FV_APP\FV_CALCULATION\app.js --scriptoptions= --log "FV CALCULATION wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-31 10:33:37 - Started 13120

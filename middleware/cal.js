@@ -9,10 +9,15 @@ let token;
 module.exports.Calculate = async () => {
     token = await getToken();
     //getRPMData();
-    await getDistance();
-    await getConsRate();
-    await getFlowRate();
-    await getRPMData();
+    try {
+        await getDistance();
+        await getConsRate();
+        await getFlowRate();
+        await getRPMData();
+    }
+    catch (err) {
+        logger.loginfo('main thred' + err)
+    }
 }
 
 getToken = async () => {
@@ -34,25 +39,41 @@ getDistance = async () => {
         tReq.Tags.push(tagR);
     });
 
-    if(tReq){
+    //console.log(tReq)
+
+    if (tReq) {
         let data = [];
         await axios.post(APIUrl + 'getdistance', tReq, { headers: { Authorization: token } })
             .then((res) => {
-                data.push(res.data);
+                //console.log(res.data)
+                if (res.data !== null) {
+                    data.push(res.data);
+                }
             })
 
         await axios.post(APIUrl + 'getmaxspeed', tReq, { headers: { Authorization: token } })
             .then((res) => {
-                data.push(res.data);
+                if (res.data !== null) {
+                    data.push(res.data);
+                }
             })
 
         await axios.post(APIUrl + 'getavgspeed', tReq, { headers: { Authorization: token } })
             .then((res) => {
-                data.push(res.data);
+                if (res.data !== null) {
+                    data.push(res.data);
+                }
             })
 
-        saveGPS(data)
-        
+        //console.log(data)
+
+        try {
+            saveGPS(data);
+        }
+        catch (ex) {
+            logger.loginfo('save gps : ' + ex)
+        }
+
     }
 }
 
@@ -62,43 +83,72 @@ saveGPS = async (Data) => {
 
     const tmp = new Date;
 
-    Data[0].forEach(d => {
-        const SName = d._id.Name.split('-');
-        const val = d.Value/60;
-        const Tname = `${SName[0]}-VES-GPS-DIS-TODAY`;
-        const rd = { Name: Tname, Value: val, Unit:'mile', TimeStamp:tmp }
-        realData.push(rd);
-        const hd = { Name: Tname, Records: [ { Value: val, TimeStamp:tmp}] }
-        hisData.push(hd);
-    })
+    let VName = '';
 
-    
-    Data[1].forEach(d => {
-        const SName = d._id.Name.split('-');
-        const Tname = `${SName[0]}-VES-GPS-SPEED-MAX`;
-        const rd = { Name: Tname, Value: d.Value, Unit:'knot', TimeStamp:tmp }
-        realData.push(rd);
-        const hd = { Name: Tname, Records: [ { Value: d.Value, TimeStamp:tmp}] }
-        hisData.push(hd);
-    })
+    if (Data.length === 3) {
+        Data[0].forEach(d => {
+            let SName
+            if (d) {
+                if (d._id.Name) {
+                    SName = d._id.Name.split('-');
+                }
+                if (VName === '') {
+                    VName = SName[0];
+                }
 
-    Data[2].forEach(d => {
-        const SName = d._id.Name.split('-');
-        const Tname = `${SName[0]}-VES-GPS-SPEED-AVG`;
-        const rd = { Name: Tname, Value: d.Value, Unit:'knot', TimeStamp:tmp }
-        realData.push(rd);
-        const hd = { Name: Tname, Records: [ { Value: d.Value, TimeStamp:tmp}] }
-        hisData.push(hd);
-    })
+                const val = d.Value / 60;
+                const Tname = `${SName[0]}-VES-GPS-DIS-TODAY`;
+                const rd = { Name: Tname, Value: val, Unit: 'mile', TimeStamp: tmp }
+                realData.push(rd);
+                const hd = { Name: Tname, Records: [{ Value: val, TimeStamp: tmp }] }
+                hisData.push(hd);
+            }
+        })
 
-    if (realData) {
-        await axios.post(APIUrl + 'updaterealtime', realData, { headers: { Authorization: token } });
-        logger.loginfo('GPS realtime calulated');
-    }
 
-    if (hisData) {
-        await axios.post(APIUrl + 'inserthis', hisData, { headers: { Authorization: token } });
-        logger.loginfo('GPS historian calculated');
+        Data[1].forEach(d => {
+            if (d) {
+                if (d._id.Name) {
+                    SName = d._id.Name.split('-');
+                }
+                if (VName === '') {
+                    VName = SName[0];
+                }
+
+                const Tname = `${SName[0]}-VES-GPS-SPEED-MAX`;
+                const rd = { Name: Tname, Value: d.Value, Unit: 'knot', TimeStamp: tmp }
+                realData.push(rd);
+                const hd = { Name: Tname, Records: [{ Value: d.Value, TimeStamp: tmp }] }
+                hisData.push(hd);
+            }
+        })
+
+        Data[2].forEach(d => {
+            if (d) {
+                if (d._id.Name) {
+                    SName = d._id.Name.split('-');
+                }
+                if (VName === '') {
+                    VName = SName[0];
+                }
+
+                const Tname = `${SName[0]}-VES-GPS-SPEED-AVG`;
+                const rd = { Name: Tname, Value: d.Value, Unit: 'knot', TimeStamp: tmp }
+                realData.push(rd);
+                const hd = { Name: Tname, Records: [{ Value: d.Value, TimeStamp: tmp }] }
+                hisData.push(hd);
+            }
+        })
+
+        if (realData.length > 0) {
+            await axios.post(APIUrl + 'updaterealtime', realData, { headers: { Authorization: token } });
+            logger.loginfo(VName + ' GPS realtime calulated');
+        }
+
+        if (hisData.length > 0) {
+            await axios.post(APIUrl + 'inserthis', hisData, { headers: { Authorization: token } });
+            logger.loginfo(VName + ' GPS historian calculated');
+        }
     }
 }
 
@@ -108,27 +158,28 @@ getRPMData = async () => {
 
         const TagsCFG = cfg.Tags.RPM;
 
+        if (TagsCFG.length > 0) {
+            let Tags = { Tags: [] };
+            let Factors = [];
 
-        let Tags = { Tags: [] };
-        let Factors = [];
 
+            TagsCFG.forEach(tc => {
+                let spt = tc.split(',');
 
-        TagsCFG.forEach(tc => {
-            let spt = tc.split(',');
+                Tags.Tags.push(spt[0].substring(0, spt[0].length - 5));
+                Factors.push({ Name: spt[0], Factor: spt[1] });
+            });
 
-            Tags.Tags.push(spt[0].substring(0, spt[0].length - 5));
-            Factors.push({ Name: spt[0], Factor: spt[1] });
-        });
+            let response;
 
-        let response;
-
-        if (Tags) {
-            await axios.post(APIUrl + 'getdatacal', Tags, { headers: { Authorization: token } })
-                .then((res) => {
-                    //console.log(res.data)
-                    response = res.data;
-                    saveRpm(res.data, Factors);
-                });
+            if (Tags) {
+                await axios.post(APIUrl + 'getdatacal', Tags, { headers: { Authorization: token } })
+                    .then((res) => {
+                        //console.log(res.data)
+                        response = res.data;
+                        saveRpm(res.data, Factors);
+                    });
+            }
         }
     })
 }
@@ -138,44 +189,59 @@ saveRpm = async (Data, Factors) => {
     let hisData = [];
     const tmp = new Date;
 
+    let VName = '';
+
     Data.forEach(d => {
-        const f = getFactor(Factors, d.Name);
-        const cal = (d.Records[1].Value - d.Records[0].Value) / f;
+        if (d.Records.length === 2) {
+            if (VName === '') {
+                VName = d.Name.split('-');
+            }
+            const f = getFactor(Factors, d.Name);
+            let cal = (d.Records[1].Value - d.Records[0].Value) / f;
+            if (VName[0] === 'SC_SULTAN') {
+                cal = ((d.Records[1].Value / 1000) * 60) / f;
+                //console.log(cal)
+            }
 
-        const Rname = `${d.Name}-CALC`;
+            const Rname = `${d.Name}-CALC`;
 
-        const real = { Name: Rname, Value: cal, Unit: 'rpm', TimeStamp: tmp };
-        const his = { Name: Rname, Records: [{ Value: cal, TimeStamp: tmp }] };
+            const real = { Name: Rname, Value: cal, Unit: 'rpm', TimeStamp: tmp };
+            const his = { Name: Rname, Records: [{ Value: cal, TimeStamp: tmp }] };
 
-        realData.push(real);
-        hisData.push(his);
+            realData.push(real);
+            hisData.push(his);
 
-
+        }
     });
 
     // console.log(realData)
     // console.log(hisData)
 
-    if (realData) {
+    if (realData.length > 0) {
         await axios.post(APIUrl + 'updaterealtime', realData, { headers: { Authorization: token } });
-        logger.loginfo('spd rpm realtime calulated');
+        logger.loginfo(VName[0] + ' spd rpm realtime calulated');
     }
 
-    if (hisData) {
+    if (hisData.length > 0) {
         await axios.post(APIUrl + 'inserthis', hisData, { headers: { Authorization: token } });
-        logger.loginfo('spd rpm historian calculated');
+        logger.loginfo(VName[0] + ' spd rpm historian calculated');
     }
 }
 
 getFlowRate = async () => {
     const CFG = calCfg;
-
-    const Ip = '-FIN-VTOTAL';
-    const Op = '-FOUT-VTOTAL'
-
+    let Ip, Op;
     let Req = [];
     CFG.forEach(c => {
         let Tags = [];
+        if (c.Type === 0) {
+            Ip = '-FIN-VTOTAL';
+            Op = '-FOUT-VTOTAL'
+        }
+        else if (c.Type === 1) {
+            Ip = '-FIN-RAW-VTOTAL';
+            Op = '-FOUT-RAW-VTOTAL'
+        }
         c.Tags.CONS.forEach(e => {
             const FINV = `${c.Vessel}-${e}${Ip}`;
             const FOUT = `${c.Vessel}-${e}${Op}`;
@@ -206,16 +272,33 @@ calFlowRate = async (Data) => {
     let RealData = [];
     let HisData = [];
 
+
+    let VName = '';
     const tmp = new Date;
     Data.forEach(d => {
-        const cal = (d.Records[1].Value - d.Records[0].Value) * 60;
-        const SName = d.Name.split('-');
-        const RName = `${SName[0]}-${SName[1]}-${SName[2]}-RATE`
-        //console.log(RName + '  ' + cal)
-        const realtime = { Name: RName, Value: cal, Unit: 'L/h', TimeStamp: tmp }
-        const his = { Name: RName, Records: [{ Value: cal, TimeStamp: tmp }] }
-        RealData.push(realtime);
-        HisData.push(his);
+        if (d.Records.length === 2) {
+            const SName = d.Name.split('-');
+            if (VName === '') {
+                VName = SName[0];
+            }
+            let cal = (d.Records[1].Value - d.Records[0].Value) * 60;
+            if (VName === 'A01') {
+                cal = cal * 1000;
+                //console.log('GLORY6 ' + cal)
+            }
+
+            const VCFG = calCfg.find(c => c.Vessel === VName);
+            if(VCFG.Type === 1){
+                cal = cal/10;
+            }
+
+            const RName = `${SName[0]}-${SName[1]}-${SName[2]}-RATE`
+            //console.log(RName + '  ' + cal)
+            const realtime = { Name: RName, Value: cal, Unit: 'L/h', TimeStamp: tmp }
+            const his = { Name: RName, Records: [{ Value: cal, TimeStamp: tmp }] }
+            RealData.push(realtime);
+            HisData.push(his);
+        }
     });
 
     // console.log(RealData)
@@ -229,15 +312,14 @@ calFlowRate = async (Data) => {
         HisData.push(his);
     })
 
-    //console.log(RealData)
 
-    if (RealData) {
+    if (RealData.length > 0) {
         await axios.post(APIUrl + 'updaterealtime', RealData, { headers: { Authorization: token } })
-        logger.loginfo('flowrate realtime data calculated');
+        logger.loginfo(VName + ' flowrate realtime data calculated');
     }
-    if (HisData) {
+    if (HisData.length > 0) {
         await axios.post(APIUrl + 'inserthis', HisData, { headers: { Authorization: token } })
-        logger.loginfo('flowrate historian data calculated')
+        logger.loginfo(VName + ' flowrate historian data calculated')
     }
 }
 
@@ -256,6 +338,8 @@ calFlowCons = (Data) => {
         Cdata.push(cd);
     });
     Cdata.sort();
+
+    //console.log(Cdata)
 
     let ConsRates = [];
     const tmp = new Date;
@@ -284,12 +368,20 @@ getConsRate = async () => {
 
     const CFG = calCfg;
 
-    const Ip = '-FIN-VTOTAL';
-    const Op = '-FOUT-VTOTAL'
+    let Ip, Op;
 
     let Req = { Tags: [] };
+
     CFG.forEach(c => {
         let Tags = [];
+        if (c.Type === 0) {
+            Ip = '-FIN-VTOTAL';
+            Op = '-FOUT-VTOTAL'
+        }
+        else if (c.Type === 1) {
+            Ip = '-FIN-RAW-VTOTAL';
+            Op = '-FOUT-RAW-VTOTAL'
+        }
         c.Tags.CONS.forEach(e => {
             const FINV = `${c.Vessel}-${e}${Ip}`;
             const FOUT = `${c.Vessel}-${e}${Op}`;
@@ -321,8 +413,6 @@ saveContoday = async (Data) => {
 
     Data.sort();
 
-    //console.log(Data)
-
     let CData = [];
     let EGS = [];
     let VName;
@@ -344,29 +434,43 @@ saveContoday = async (Data) => {
     CData.sort();
     EGS.sort();
 
-    //console.log(CData, EGS)
+    //console.log(CData)
 
     const tmp = new Date;
     if (CData) {
+        const VCFG = calCfg.find(c => c.Vessel === VName);
         EGS.forEach(e => {
-            const TVIn = `${e}-FIN-VTOTAL`;
-            const TVOut = `${e}-FOUT-VTOTAL`;
+            let TVIn, TVOut;
+
+            if (VCFG.Type === 0) {
+                TVIn = `${e}-FIN-VTOTAL`;
+                TVOut = `${e}-FOUT-VTOTAL`;
+            }
+            else if(VCFG.Type === 1){
+                TVIn = `${e}-FIN-RAW-VTOTAL`;
+                TVOut = `${e}-FOUT-RAW-VTOTAL`;
+            }
 
             const RIn = getArrayRec(CData, TVIn);
             const ROut = getArrayRec(CData, TVOut);
 
-            const VIn = RIn[1].Value - RIn[0].Value;
-            const VOut = ROut[1].Value - ROut[0].Value;
+            //console.log(RIn, ROut)
 
-            //console.log(VName, e, VIn, VOut)
+            //console.log(RIn.length)
+            if (RIn.length === 2) {
+                const VIn = RIn[1].Value/10 - RIn[0].Value/10;
+                const VOut = ROut[1].Value/10 - ROut[0].Value/10;
 
-            const STag = `${VName}-${e}-CONS-TODAY`
-            const Cons = VIn - VOut;
+                //console.log(VName, e, VIn, VOut)
 
-            const rd = { Name: STag, Value: Cons, Unit: 'L', TimeStamp: tmp }
-            realData.push(rd);
-            const hd = { Name: STag, Records: [{ Value: Cons, TimeStamp: tmp }] }
-            hisData.push(hd);
+                const STag = `${VName}-${e}-CONS-TODAY`
+                const Cons = VIn - VOut;
+
+                const rd = { Name: STag, Value: Cons, Unit: 'L', TimeStamp: tmp }
+                realData.push(rd);
+                const hd = { Name: STag, Records: [{ Value: Cons, TimeStamp: tmp }] }
+                hisData.push(hd);
+            }
         });
 
         let sumCons = 0;
@@ -388,14 +492,14 @@ saveContoday = async (Data) => {
         hisData.push(sumhd);
         hisData.push(avghd);
 
-        if (realData) {
+        if (realData.length > 0) {
             await axios.post(APIUrl + 'updaterealtime', realData, { headers: { Authorization: token } })
-            logger.loginfo('consumtion realtime data calculated');
+            logger.loginfo(VName + ' consumtion realtime data calculated');
         }
 
-        if (hisData) {
+        if (hisData.length > 0) {
             await axios.post(APIUrl + 'inserthis', hisData, { headers: { Authorization: token } })
-            logger.loginfo('consumtion historian data calculated');
+            logger.loginfo(VName + ' consumtion historian data calculated');
         }
     }
 
@@ -404,6 +508,7 @@ saveContoday = async (Data) => {
 getArrayRec = (Arr, Key) => {
     let res;
     Arr.forEach(a => {
+        //console.log(a)
         if (a.Name === Key) { res = a.Records }
     });
     return res;

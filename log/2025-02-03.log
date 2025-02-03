@@ -1,0 +1,796 @@
+2025-02-03 2:28:07 PM app start
+2025-02-03 2:29:00 PM app tick
+2025-02-03 2:29:00 PM A06 GPS realtime calulated
+2025-02-03 2:29:00 PM A06 GPS historian calculated
+2025-02-03 2:29:00 PM A01 consumtion realtime data calculated
+2025-02-03 2:29:00 PM A02 flowrate realtime data calculated
+2025-02-03 2:29:00 PM SC_GLORY1 consumtion realtime data calculated
+2025-02-03 2:29:00 PM A01 flowrate realtime data calculated
+2025-02-03 2:29:00 PM A03 flowrate realtime data calculated
+2025-02-03 2:29:00 PM A01 consumtion historian data calculated
+2025-02-03 2:29:00 PM A02 flowrate historian data calculated
+2025-02-03 2:29:00 PM SC_GLORY1 consumtion historian data calculated
+2025-02-03 2:29:01 PM A01 flowrate historian data calculated
+2025-02-03 2:29:01 PM A03 flowrate historian data calculated
+2025-02-03 2:29:01 PM SC_GLORY3 consumtion realtime data calculated
+2025-02-03 2:29:01 PM A03 consumtion realtime data calculated
+2025-02-03 2:29:01 PM A07 consumtion realtime data calculated
+2025-02-03 2:29:01 PM SC_SULTAN flowrate realtime data calculated
+2025-02-03 2:29:01 PM A04 flowrate realtime data calculated
+2025-02-03 2:29:01 PM A09 consumtion realtime data calculated
+2025-02-03 2:29:01 PM A05 consumtion realtime data calculated
+2025-02-03 2:29:01 PM SC_CHOLUEDEE flowrate realtime data calculated
+2025-02-03 2:29:01 PM A06 flowrate realtime data calculated
+2025-02-03 2:29:01 PM A04 consumtion realtime data calculated
+2025-02-03 2:29:01 PM SC_GLORY3 consumtion historian data calculated
+2025-02-03 2:29:01 PM A02 consumtion realtime data calculated
+2025-02-03 2:29:01 PM A03 consumtion historian data calculated
+2025-02-03 2:29:01 PM SC_SULTAN consumtion realtime data calculated
+2025-02-03 2:29:01 PM A06 consumtion realtime data calculated
+2025-02-03 2:29:01 PM A07 consumtion historian data calculated
+2025-02-03 2:29:01 PM SC_CHOLUEDEE consumtion realtime data calculated
+2025-02-03 2:29:01 PM SC_SULTAN flowrate historian data calculated
+2025-02-03 2:29:01 PM SC_RAJA consumtion realtime data calculated
+2025-02-03 2:29:01 PM A05 spd rpm realtime calulated
+2025-02-03 2:29:01 PM A04 flowrate historian data calculated
+2025-02-03 2:29:01 PM A09 consumtion historian data calculated
+2025-02-03 2:29:01 PM A05 consumtion historian data calculated
+2025-02-03 2:29:01 PM SC_CHOLUEDEE flowrate historian data calculated
+2025-02-03 2:29:01 PM A06 flowrate historian data calculated
+2025-02-03 2:29:01 PM A04 consumtion historian data calculated
+2025-02-03 2:29:01 PM A09 flowrate realtime data calculated
+2025-02-03 2:29:01 PM A05 flowrate realtime data calculated
+2025-02-03 2:29:01 PM BB_MULIA consumtion realtime data calculated
+2025-02-03 2:29:01 PM A02 consumtion historian data calculated
+2025-02-03 2:29:01 PM A02 spd rpm realtime calulated
+2025-02-03 2:29:01 PM SC_RAJA flowrate realtime data calculated
+2025-02-03 2:29:01 PM SC_SULTAN consumtion historian data calculated
+2025-02-03 2:29:01 PM SC_GLORY3 spd rpm realtime calulated
+2025-02-03 2:29:01 PM A06 consumtion historian data calculated
+2025-02-03 2:29:01 PM SC_CHOLUEDEE consumtion historian data calculated
+2025-02-03 2:29:01 PM SC_SULTAN spd rpm realtime calulated
+2025-02-03 2:29:01 PM SC_GLORY1 flowrate realtime data calculated
+2025-02-03 2:29:01 PM SC_GLORY3 flowrate realtime data calculated
+2025-02-03 2:29:01 PM SC_RAJA consumtion historian data calculated
+2025-02-03 2:29:01 PM A05 spd rpm historian calculated
+2025-02-03 2:29:01 PM SC_CHOLUEDEE spd rpm realtime calulated
+2025-02-03 2:29:01 PM A07 flowrate realtime data calculated
+2025-02-03 2:29:01 PM SC_GLORY1 spd rpm realtime calulated
+2025-02-03 2:29:01 PM A07 spd rpm realtime calulated
+2025-02-03 2:29:01 PM A09 flowrate historian data calculated
+2025-02-03 2:29:01 PM BB_MULIA flowrate realtime data calculated
+2025-02-03 2:29:01 PM A01 spd rpm realtime calulated
+2025-02-03 2:29:01 PM A05 flowrate historian data calculated
+2025-02-03 2:29:01 PM BB_MULIA consumtion historian data calculated
+2025-02-03 2:29:01 PM A03 spd rpm realtime calulated
+2025-02-03 2:29:01 PM A04 spd rpm realtime calulated
+2025-02-03 2:29:01 PM A02 spd rpm historian calculated
+2025-02-03 2:29:01 PM A06 spd rpm realtime calulated
+2025-02-03 2:29:01 PM SC_RAJA flowrate historian data calculated
+2025-02-03 2:29:01 PM A09 spd rpm realtime calulated
+2025-02-03 2:29:01 PM SC_GLORY3 spd rpm historian calculated
+2025-02-03 2:29:01 PM BB_JINDAMANEE consumtion realtime data calculated
+2025-02-03 2:29:01 PM SC_SULTAN spd rpm historian calculated
+2025-02-03 2:29:01 PM SC_GLORY1 flowrate historian data calculated
+2025-02-03 2:29:01 PM SC_GLORY3 flowrate historian data calculated
+2025-02-03 2:29:01 PM SC_CHOLUEDEE spd rpm historian calculated
+2025-02-03 2:29:01 PM A07 flowrate historian data calculated
+2025-02-03 2:29:01 PM SC_GLORY1 spd rpm historian calculated
+2025-02-03 2:29:01 PM A07 spd rpm historian calculated
+2025-02-03 2:29:01 PM BB_MULIA flowrate historian data calculated
+2025-02-03 2:29:01 PM A01 spd rpm historian calculated
+2025-02-03 2:29:01 PM A03 spd rpm historian calculated
+2025-02-03 2:29:01 PM A04 spd rpm historian calculated
+2025-02-03 2:29:01 PM A06 spd rpm historian calculated
+2025-02-03 2:29:01 PM BB_GOMEN consumtion realtime data calculated
+2025-02-03 2:29:01 PM A09 spd rpm historian calculated
+2025-02-03 2:29:01 PM BB_JINDAMANEE consumtion historian data calculated
+2025-02-03 2:29:01 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 2:29:01 PM BB_GOMEN consumtion historian data calculated
+2025-02-03 2:29:01 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 2:37:31 PM app start
+2025-02-03 2:38:48 PM app start
+2025-02-03 2:39:00 PM app tick
+2025-02-03 2:39:00 PM A02 GPS realtime calulated
+2025-02-03 2:39:00 PM A02 GPS historian calculated
+2025-02-03 2:39:01 PM A02 consumtion realtime data calculated
+2025-02-03 2:39:01 PM A02 consumtion historian data calculated
+2025-02-03 2:39:02 PM A04 consumtion realtime data calculated
+2025-02-03 2:39:02 PM A01 consumtion realtime data calculated
+2025-02-03 2:39:02 PM A04 consumtion historian data calculated
+2025-02-03 2:39:02 PM A01 consumtion historian data calculated
+2025-02-03 2:39:02 PM SC_CHOLUEDEE consumtion realtime data calculated
+2025-02-03 2:39:02 PM A03 consumtion realtime data calculated
+2025-02-03 2:39:02 PM SC_GLORY1 consumtion realtime data calculated
+2025-02-03 2:39:02 PM A05 consumtion realtime data calculated
+2025-02-03 2:39:02 PM SC_SULTAN consumtion realtime data calculated
+2025-02-03 2:39:02 PM A03 flowrate realtime data calculated
+2025-02-03 2:39:02 PM A04 flowrate realtime data calculated
+2025-02-03 2:39:02 PM SC_CHOLUEDEE consumtion historian data calculated
+2025-02-03 2:39:02 PM A03 consumtion historian data calculated
+2025-02-03 2:39:02 PM SC_GLORY1 consumtion historian data calculated
+2025-02-03 2:39:02 PM A06 flowrate realtime data calculated
+2025-02-03 2:39:02 PM A05 consumtion historian data calculated
+2025-02-03 2:39:02 PM SC_SULTAN consumtion historian data calculated
+2025-02-03 2:39:02 PM A06 consumtion realtime data calculated
+2025-02-03 2:39:02 PM A02 flowrate realtime data calculated
+2025-02-03 2:39:02 PM SC_CHOLUEDEE flowrate realtime data calculated
+2025-02-03 2:39:02 PM SC_GLORY1 flowrate realtime data calculated
+2025-02-03 2:39:02 PM SC_GLORY3 flowrate realtime data calculated
+2025-02-03 2:39:02 PM SC_RAJA flowrate realtime data calculated
+2025-02-03 2:39:02 PM A03 flowrate historian data calculated
+2025-02-03 2:39:02 PM A04 flowrate historian data calculated
+2025-02-03 2:39:02 PM SC_GLORY3 consumtion realtime data calculated
+2025-02-03 2:39:02 PM A06 flowrate historian data calculated
+2025-02-03 2:39:02 PM A06 consumtion historian data calculated
+2025-02-03 2:39:02 PM A02 flowrate historian data calculated
+2025-02-03 2:39:02 PM A09 consumtion realtime data calculated
+2025-02-03 2:39:02 PM SC_CHOLUEDEE flowrate historian data calculated
+2025-02-03 2:39:02 PM SC_GLORY1 flowrate historian data calculated
+2025-02-03 2:39:02 PM SC_GLORY3 flowrate historian data calculated
+2025-02-03 2:39:02 PM BB_MULIA consumtion realtime data calculated
+2025-02-03 2:39:02 PM SC_RAJA flowrate historian data calculated
+2025-02-03 2:39:02 PM A03 spd rpm realtime calulated
+2025-02-03 2:39:02 PM SC_RAJA consumtion realtime data calculated
+2025-02-03 2:39:02 PM A01 flowrate realtime data calculated
+2025-02-03 2:39:02 PM SC_GLORY3 consumtion historian data calculated
+2025-02-03 2:39:02 PM SC_SULTAN spd rpm realtime calulated
+2025-02-03 2:39:02 PM A09 consumtion historian data calculated
+2025-02-03 2:39:02 PM SC_SULTAN flowrate realtime data calculated
+2025-02-03 2:39:02 PM BB_MULIA consumtion historian data calculated
+2025-02-03 2:39:02 PM SC_CHOLUEDEE spd rpm realtime calulated
+2025-02-03 2:39:02 PM A07 flowrate realtime data calculated
+2025-02-03 2:39:02 PM A07 spd rpm realtime calulated
+2025-02-03 2:39:02 PM A03 spd rpm historian calculated
+2025-02-03 2:39:02 PM A06 spd rpm realtime calulated
+2025-02-03 2:39:02 PM BB_MULIA flowrate realtime data calculated
+2025-02-03 2:39:02 PM A05 spd rpm realtime calulated
+2025-02-03 2:39:02 PM SC_RAJA consumtion historian data calculated
+2025-02-03 2:39:02 PM A01 flowrate historian data calculated
+2025-02-03 2:39:02 PM A05 flowrate realtime data calculated
+2025-02-03 2:39:02 PM SC_SULTAN spd rpm historian calculated
+2025-02-03 2:39:02 PM A04 spd rpm realtime calulated
+2025-02-03 2:39:02 PM A01 spd rpm realtime calulated
+2025-02-03 2:39:02 PM SC_SULTAN flowrate historian data calculated
+2025-02-03 2:39:02 PM A09 spd rpm realtime calulated
+2025-02-03 2:39:02 PM SC_CHOLUEDEE spd rpm historian calculated
+2025-02-03 2:39:02 PM SC_GLORY3 spd rpm realtime calulated
+2025-02-03 2:39:02 PM A02 spd rpm realtime calulated
+2025-02-03 2:39:02 PM SC_GLORY1 spd rpm realtime calulated
+2025-02-03 2:39:02 PM A07 flowrate historian data calculated
+2025-02-03 2:39:02 PM A07 spd rpm historian calculated
+2025-02-03 2:39:02 PM A06 spd rpm historian calculated
+2025-02-03 2:39:02 PM BB_MULIA flowrate historian data calculated
+2025-02-03 2:39:02 PM A05 spd rpm historian calculated
+2025-02-03 2:39:02 PM A05 flowrate historian data calculated
+2025-02-03 2:39:02 PM A04 spd rpm historian calculated
+2025-02-03 2:39:02 PM A01 spd rpm historian calculated
+2025-02-03 2:39:02 PM A09 spd rpm historian calculated
+2025-02-03 2:39:02 PM SC_GLORY3 spd rpm historian calculated
+2025-02-03 2:39:02 PM A02 spd rpm historian calculated
+2025-02-03 2:39:02 PM SC_GLORY1 spd rpm historian calculated
+2025-02-03 2:39:02 PM BB_JINDAMANEE consumtion realtime data calculated
+2025-02-03 2:39:02 PM BB_GOMEN consumtion realtime data calculated
+2025-02-03 2:39:02 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 2:39:02 PM A07 consumtion realtime data calculated
+2025-02-03 2:39:02 PM A09 flowrate realtime data calculated
+2025-02-03 2:39:02 PM BB_JINDAMANEE consumtion historian data calculated
+2025-02-03 2:39:02 PM BB_GOMEN consumtion historian data calculated
+2025-02-03 2:39:02 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 2:39:02 PM A07 consumtion historian data calculated
+2025-02-03 2:39:02 PM A09 flowrate historian data calculated
+2025-02-03 2:45:00 PM app start
+2025-02-03 2:46:00 PM app tick
+2025-02-03 2:46:00 PM A04 GPS realtime calulated
+2025-02-03 2:46:00 PM A04 GPS historian calculated
+2025-02-03 2:46:01 PM A04 consumtion realtime data calculated
+2025-02-03 2:46:01 PM A04 consumtion historian data calculated
+2025-02-03 2:46:01 PM A07 consumtion realtime data calculated
+2025-02-03 2:46:01 PM A07 consumtion historian data calculated
+2025-02-03 2:46:01 PM SC_CHOLUEDEE consumtion realtime data calculated
+2025-02-03 2:46:01 PM A02 consumtion realtime data calculated
+2025-02-03 2:46:01 PM SC_GLORY3 consumtion realtime data calculated
+2025-02-03 2:46:01 PM A01 flowrate realtime data calculated
+2025-02-03 2:46:01 PM SC_CHOLUEDEE consumtion historian data calculated
+2025-02-03 2:46:01 PM A09 consumtion realtime data calculated
+2025-02-03 2:46:01 PM A01 consumtion realtime data calculated
+2025-02-03 2:46:01 PM A05 consumtion realtime data calculated
+2025-02-03 2:46:01 PM A01 flowrate historian data calculated
+2025-02-03 2:46:02 PM SC_CHOLUEDEE flowrate realtime data calculated
+2025-02-03 2:46:02 PM SC_GLORY1 flowrate realtime data calculated
+2025-02-03 2:46:02 PM A02 consumtion historian data calculated
+2025-02-03 2:46:02 PM SC_GLORY3 consumtion historian data calculated
+2025-02-03 2:46:02 PM SC_SULTAN consumtion realtime data calculated
+2025-02-03 2:46:02 PM A06 consumtion realtime data calculated
+2025-02-03 2:46:02 PM BB_MULIA consumtion realtime data calculated
+2025-02-03 2:46:02 PM A09 consumtion historian data calculated
+2025-02-03 2:46:02 PM A03 consumtion realtime data calculated
+2025-02-03 2:46:02 PM A01 consumtion historian data calculated
+2025-02-03 2:46:02 PM SC_RAJA consumtion realtime data calculated
+2025-02-03 2:46:02 PM BB_MULIA flowrate realtime data calculated
+2025-02-03 2:46:02 PM A06 flowrate realtime data calculated
+2025-02-03 2:46:02 PM A05 consumtion historian data calculated
+2025-02-03 2:46:02 PM SC_SULTAN flowrate realtime data calculated
+2025-02-03 2:46:02 PM A05 flowrate realtime data calculated
+2025-02-03 2:46:02 PM A03 spd rpm realtime calulated
+2025-02-03 2:46:02 PM SC_CHOLUEDEE flowrate historian data calculated
+2025-02-03 2:46:02 PM SC_GLORY1 flowrate historian data calculated
+2025-02-03 2:46:02 PM A04 spd rpm realtime calulated
+2025-02-03 2:46:02 PM SC_SULTAN consumtion historian data calculated
+2025-02-03 2:46:02 PM A06 consumtion historian data calculated
+2025-02-03 2:46:02 PM BB_MULIA consumtion historian data calculated
+2025-02-03 2:46:02 PM A02 flowrate realtime data calculated
+2025-02-03 2:46:02 PM A06 spd rpm realtime calulated
+2025-02-03 2:46:02 PM A03 consumtion historian data calculated
+2025-02-03 2:46:02 PM SC_RAJA consumtion historian data calculated
+2025-02-03 2:46:02 PM BB_MULIA flowrate historian data calculated
+2025-02-03 2:46:02 PM SC_GLORY1 spd rpm realtime calulated
+2025-02-03 2:46:02 PM A07 flowrate realtime data calculated
+2025-02-03 2:46:02 PM A06 flowrate historian data calculated
+2025-02-03 2:46:02 PM SC_GLORY3 flowrate realtime data calculated
+2025-02-03 2:46:02 PM A07 spd rpm realtime calulated
+2025-02-03 2:46:02 PM A04 flowrate realtime data calculated
+2025-02-03 2:46:02 PM SC_GLORY1 consumtion realtime data calculated
+2025-02-03 2:46:02 PM SC_GLORY3 spd rpm realtime calulated
+2025-02-03 2:46:02 PM SC_SULTAN flowrate historian data calculated
+2025-02-03 2:46:02 PM A09 flowrate realtime data calculated
+2025-02-03 2:46:02 PM A05 flowrate historian data calculated
+2025-02-03 2:46:02 PM A03 spd rpm historian calculated
+2025-02-03 2:46:02 PM A04 spd rpm historian calculated
+2025-02-03 2:46:02 PM A02 spd rpm realtime calulated
+2025-02-03 2:46:02 PM A02 flowrate historian data calculated
+2025-02-03 2:46:02 PM A01 spd rpm realtime calulated
+2025-02-03 2:46:02 PM A06 spd rpm historian calculated
+2025-02-03 2:46:02 PM A09 spd rpm realtime calulated
+2025-02-03 2:46:02 PM SC_RAJA flowrate realtime data calculated
+2025-02-03 2:46:02 PM SC_GLORY1 spd rpm historian calculated
+2025-02-03 2:46:02 PM SC_SULTAN spd rpm realtime calulated
+2025-02-03 2:46:02 PM SC_CHOLUEDEE spd rpm realtime calulated
+2025-02-03 2:46:02 PM A07 flowrate historian data calculated
+2025-02-03 2:46:02 PM A03 flowrate realtime data calculated
+2025-02-03 2:46:02 PM SC_GLORY3 flowrate historian data calculated
+2025-02-03 2:46:02 PM A05 spd rpm realtime calulated
+2025-02-03 2:46:02 PM A07 spd rpm historian calculated
+2025-02-03 2:46:02 PM A04 flowrate historian data calculated
+2025-02-03 2:46:02 PM SC_GLORY1 consumtion historian data calculated
+2025-02-03 2:46:02 PM SC_GLORY3 spd rpm historian calculated
+2025-02-03 2:46:02 PM A09 flowrate historian data calculated
+2025-02-03 2:46:02 PM A02 spd rpm historian calculated
+2025-02-03 2:46:02 PM A01 spd rpm historian calculated
+2025-02-03 2:46:02 PM A09 spd rpm historian calculated
+2025-02-03 2:46:02 PM SC_RAJA flowrate historian data calculated
+2025-02-03 2:46:02 PM SC_SULTAN spd rpm historian calculated
+2025-02-03 2:46:02 PM SC_CHOLUEDEE spd rpm historian calculated
+2025-02-03 2:46:02 PM A03 flowrate historian data calculated
+2025-02-03 2:46:02 PM A05 spd rpm historian calculated
+2025-02-03 2:46:02 PM BB_GOMEN consumtion realtime data calculated
+2025-02-03 2:46:02 PM BB_JINDAMANEE consumtion realtime data calculated
+2025-02-03 2:46:02 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 2:46:02 PM BB_GOMEN consumtion historian data calculated
+2025-02-03 2:46:02 PM BB_JINDAMANEE consumtion historian data calculated
+2025-02-03 2:46:02 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 2:56:51 PM app start
+2025-02-03 2:57:00 PM app tick
+2025-02-03 2:57:00 PM A06 GPS realtime calulated
+2025-02-03 2:57:00 PM A06 GPS historian calculated
+2025-02-03 2:57:06 PM A03 consumtion realtime data calculated
+2025-02-03 2:57:06 PM A03 consumtion historian data calculated
+2025-02-03 2:57:06 PM SC_CHOLUEDEE consumtion realtime data calculated
+2025-02-03 2:57:06 PM A04 consumtion realtime data calculated
+2025-02-03 2:57:06 PM SC_CHOLUEDEE consumtion historian data calculated
+2025-02-03 2:57:06 PM A04 consumtion historian data calculated
+2025-02-03 2:57:06 PM SC_SULTAN consumtion realtime data calculated
+2025-02-03 2:57:06 PM A01 consumtion realtime data calculated
+2025-02-03 2:57:06 PM A05 consumtion realtime data calculated
+2025-02-03 2:57:06 PM SC_SULTAN consumtion historian data calculated
+2025-02-03 2:57:06 PM A01 consumtion historian data calculated
+2025-02-03 2:57:06 PM A05 consumtion historian data calculated
+2025-02-03 2:57:06 PM A02 consumtion realtime data calculated
+2025-02-03 2:57:06 PM A02 consumtion historian data calculated
+2025-02-03 2:57:06 PM A06 consumtion realtime data calculated
+2025-02-03 2:57:06 PM SC_GLORY3 consumtion realtime data calculated
+2025-02-03 2:57:06 PM SC_GLORY1 consumtion realtime data calculated
+2025-02-03 2:57:06 PM A09 consumtion realtime data calculated
+2025-02-03 2:57:06 PM A07 consumtion realtime data calculated
+2025-02-03 2:57:06 PM A06 consumtion historian data calculated
+2025-02-03 2:57:06 PM BB_MULIA consumtion realtime data calculated
+2025-02-03 2:57:06 PM SC_GLORY3 consumtion historian data calculated
+2025-02-03 2:57:06 PM SC_GLORY1 consumtion historian data calculated
+2025-02-03 2:57:06 PM A09 consumtion historian data calculated
+2025-02-03 2:57:06 PM A07 consumtion historian data calculated
+2025-02-03 2:57:06 PM A02 spd rpm realtime calulated
+2025-02-03 2:57:06 PM A07 spd rpm realtime calulated
+2025-02-03 2:57:06 PM A05 spd rpm realtime calulated
+2025-02-03 2:57:06 PM SC_GLORY1 spd rpm realtime calulated
+2025-02-03 2:57:06 PM A06 spd rpm realtime calulated
+2025-02-03 2:57:06 PM BB_MULIA consumtion historian data calculated
+2025-02-03 2:57:06 PM SC_RAJA consumtion realtime data calculated
+2025-02-03 2:57:06 PM SC_GLORY3 spd rpm realtime calulated
+2025-02-03 2:57:07 PM SC_SULTAN spd rpm realtime calulated
+2025-02-03 2:57:07 PM A04 spd rpm realtime calulated
+2025-02-03 2:57:07 PM A03 spd rpm realtime calulated
+2025-02-03 2:57:07 PM SC_CHOLUEDEE spd rpm realtime calulated
+2025-02-03 2:57:07 PM A01 spd rpm realtime calulated
+2025-02-03 2:57:07 PM A02 spd rpm historian calculated
+2025-02-03 2:57:07 PM A07 spd rpm historian calculated
+2025-02-03 2:57:07 PM A05 spd rpm historian calculated
+2025-02-03 2:57:07 PM SC_GLORY1 spd rpm historian calculated
+2025-02-03 2:57:07 PM A06 spd rpm historian calculated
+2025-02-03 2:57:07 PM SC_RAJA consumtion historian data calculated
+2025-02-03 2:57:07 PM SC_GLORY3 spd rpm historian calculated
+2025-02-03 2:57:07 PM SC_SULTAN spd rpm historian calculated
+2025-02-03 2:57:07 PM A04 spd rpm historian calculated
+2025-02-03 2:57:07 PM A03 spd rpm historian calculated
+2025-02-03 2:57:07 PM SC_CHOLUEDEE spd rpm historian calculated
+2025-02-03 2:57:07 PM A01 spd rpm historian calculated
+2025-02-03 2:57:07 PM BB_GOMEN consumtion realtime data calculated
+2025-02-03 2:57:07 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 2:57:07 PM BB_JINDAMANEE consumtion realtime data calculated
+2025-02-03 2:57:07 PM BB_GOMEN consumtion historian data calculated
+2025-02-03 2:57:07 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 2:57:07 PM BB_JINDAMANEE consumtion historian data calculated
+2025-02-03 2:57:07 PM A09 spd rpm realtime calulated
+2025-02-03 2:57:07 PM A09 spd rpm historian calculated
+2025-02-03 2:58:25 PM app start
+2025-02-03 2:59:00 PM app tick
+2025-02-03 2:59:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 2:59:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 2:59:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 2:59:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 2:59:28 PM app start
+2025-02-03 3:00:00 PM app tick
+2025-02-03 3:00:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:00:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:00:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:00:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:00:58 PM app start
+2025-02-03 3:01:00 PM app tick
+2025-02-03 3:01:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:01:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:01:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:01:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:01:59 PM app start
+2025-02-03 3:02:00 PM app tick
+2025-02-03 3:02:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:02:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:02:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:02:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:02:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:02:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:09:28 PM app start
+2025-02-03 3:10:00 PM app tick
+2025-02-03 3:10:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:10:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:10:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:10:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:10:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:10:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:10:16 PM app start
+2025-02-03 3:11:00 PM app tick
+2025-02-03 3:11:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:11:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:11:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:11:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:11:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:11:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:11:51 PM app start
+2025-02-03 3:12:00 PM app tick
+2025-02-03 3:12:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:12:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:12:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:12:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:12:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:12:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:13:00 PM app tick
+2025-02-03 3:13:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:13:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:13:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:13:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:13:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:13:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:13:33 PM app start
+2025-02-03 3:14:00 PM app tick
+2025-02-03 3:14:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:14:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:14:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:14:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:14:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:14:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:15:25 PM app start
+2025-02-03 3:16:00 PM app tick
+2025-02-03 3:16:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:16:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:16:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:16:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:16:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:16:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:16:47 PM app start
+2025-02-03 3:17:00 PM app tick
+2025-02-03 3:17:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:17:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:17:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:17:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:17:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:17:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:17:45 PM app start
+2025-02-03 3:18:00 PM app tick
+2025-02-03 3:18:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:18:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:18:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:18:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:18:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:18:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:18:26 PM app start
+2025-02-03 3:19:00 PM app tick
+2025-02-03 3:19:01 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:19:01 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:19:01 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:19:01 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:19:01 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:19:02 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:20:00 PM app tick
+2025-02-03 3:20:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:20:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:20:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:20:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:20:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:20:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:20:24 PM app start
+2025-02-03 3:21:00 PM app tick
+2025-02-03 3:21:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:21:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:21:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:21:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:21:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:21:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:21:14 PM app start
+2025-02-03 3:22:00 PM app tick
+2025-02-03 3:22:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:22:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:22:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:22:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:22:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:22:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:40:58 PM app start
+2025-02-03 3:41:00 PM app tick
+2025-02-03 3:41:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:41:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:41:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:41:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:41:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:41:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:41:41 PM app start
+2025-02-03 3:42:00 PM app tick
+2025-02-03 3:42:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:42:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:42:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:42:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:42:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:42:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:43:00 PM app tick
+2025-02-03 3:43:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:43:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:43:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:43:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:43:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:43:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:43:10 PM app start
+2025-02-03 3:43:24 PM app start
+2025-02-03 3:44:00 PM app tick
+2025-02-03 3:44:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:44:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:44:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:44:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:44:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:44:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:44:35 PM app start
+2025-02-03 3:45:00 PM app tick
+2025-02-03 3:45:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:45:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:45:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:45:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:45:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:45:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 3:45:55 PM app start
+2025-02-03 3:46:00 PM app tick
+2025-02-03 3:46:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 3:46:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 3:46:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 3:46:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 3:46:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 3:46:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:04:15 PM app start
+2025-02-03 4:05:00 PM app tick
+2025-02-03 4:05:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:05:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:05:44 PM app start
+2025-02-03 4:06:00 PM app tick
+2025-02-03 4:06:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:06:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:06:28 PM app start
+2025-02-03 4:07:00 PM app tick
+2025-02-03 4:07:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:07:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:09:04 PM app start
+2025-02-03 4:10:00 PM app tick
+2025-02-03 4:10:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:10:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:10:37 PM app start
+2025-02-03 4:11:00 PM app tick
+2025-02-03 4:11:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:11:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:13:55 PM app start
+2025-02-03 4:14:00 PM app tick
+2025-02-03 4:14:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:14:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:14:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:14:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:14:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:14:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:14:41 PM app start
+2025-02-03 4:15:00 PM app tick
+2025-02-03 4:15:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:15:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:15:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:15:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:15:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:15:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:16:00 PM app tick
+2025-02-03 4:16:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:16:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:16:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:16:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:16:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:16:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:16:51 PM app start
+2025-02-03 4:17:00 PM app tick
+2025-02-03 4:17:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:17:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:17:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:17:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:17:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:17:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:17:34 PM app start
+2025-02-03 4:18:00 PM app tick
+2025-02-03 4:18:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:18:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:18:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:18:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:18:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:18:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:18:15 PM app start
+2025-02-03 4:19:00 PM app tick
+2025-02-03 4:19:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:19:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:19:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:19:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:19:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:19:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:19:38 PM app start
+2025-02-03 4:20:00 PM app tick
+2025-02-03 4:20:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:20:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:20:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:20:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:20:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:20:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:22:30 PM app start
+2025-02-03 4:23:00 PM app tick
+2025-02-03 4:23:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:23:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:23:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:23:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:23:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:23:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:24:32 PM app start
+2025-02-03 4:25:00 PM app tick
+2025-02-03 4:25:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:25:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:25:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:25:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:25:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:25:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:26:00 PM app tick
+2025-02-03 4:26:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:26:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:26:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:26:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:26:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:26:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:27:35 PM app start
+2025-02-03 4:28:00 PM app tick
+2025-02-03 4:28:00 PM BB_MAKMUR GPS realtime calulated
+2025-02-03 4:28:00 PM BB_MAKMUR GPS historian calculated
+2025-02-03 4:28:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:28:00 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:28:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:28:00 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:28:42 PM app start
+2025-02-03 4:28:57 PM app start
+2025-02-03 4:29:00 PM app tick
+2025-02-03 4:29:00 PM A03 GPS realtime calulated
+2025-02-03 4:29:00 PM A03 GPS historian calculated
+2025-02-03 4:29:01 PM A02 consumtion realtime data calculated
+2025-02-03 4:29:01 PM A01 flowrate realtime data calculated
+2025-02-03 4:29:01 PM SC_RAJA consumtion realtime data calculated
+2025-02-03 4:29:01 PM A03 consumtion realtime data calculated
+2025-02-03 4:29:01 PM A04 flowrate realtime data calculated
+2025-02-03 4:29:01 PM A06 consumtion realtime data calculated
+2025-02-03 4:29:01 PM SC_SULTAN flowrate realtime data calculated
+2025-02-03 4:29:01 PM A06 flowrate realtime data calculated
+2025-02-03 4:29:01 PM A09 consumtion realtime data calculated
+2025-02-03 4:29:01 PM A09 flowrate realtime data calculated
+2025-02-03 4:29:01 PM A03 flowrate realtime data calculated
+2025-02-03 4:29:01 PM SC_RAJA flowrate realtime data calculated
+2025-02-03 4:29:01 PM A05 spd rpm realtime calulated
+2025-02-03 4:29:01 PM A06 spd rpm realtime calulated
+2025-02-03 4:29:01 PM SC_CHOLUEDEE consumtion realtime data calculated
+2025-02-03 4:29:01 PM A02 flowrate realtime data calculated
+2025-02-03 4:29:01 PM A05 consumtion realtime data calculated
+2025-02-03 4:29:01 PM A04 spd rpm realtime calulated
+2025-02-03 4:29:01 PM A02 consumtion historian data calculated
+2025-02-03 4:29:01 PM SC_GLORY3 consumtion realtime data calculated
+2025-02-03 4:29:01 PM SC_GLORY3 spd rpm realtime calulated
+2025-02-03 4:29:01 PM A01 flowrate historian data calculated
+2025-02-03 4:29:01 PM A09 spd rpm realtime calulated
+2025-02-03 4:29:01 PM SC_GLORY1 consumtion realtime data calculated
+2025-02-03 4:29:01 PM BB_MULIA flowrate realtime data calculated
+2025-02-03 4:29:01 PM A07 consumtion realtime data calculated
+2025-02-03 4:29:01 PM BB_JINDAMANEE flowrate realtime data calculated
+2025-02-03 4:29:01 PM BB_MULIA consumtion realtime data calculated
+2025-02-03 4:29:01 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:29:01 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:29:01 PM SC_CHOLUEDEE flowrate realtime data calculated
+2025-02-03 4:29:01 PM SC_GLORY1 flowrate realtime data calculated
+2025-02-03 4:29:01 PM A05 flowrate realtime data calculated
+2025-02-03 4:29:01 PM SC_SULTAN spd rpm realtime calulated
+2025-02-03 4:29:01 PM SC_CHOLUEDEE spd rpm realtime calulated
+2025-02-03 4:29:01 PM SC_SULTAN consumtion realtime data calculated
+2025-02-03 4:29:01 PM A04 consumtion realtime data calculated
+2025-02-03 4:29:01 PM A01 spd rpm realtime calulated
+2025-02-03 4:29:01 PM A07 flowrate realtime data calculated
+2025-02-03 4:29:01 PM A02 spd rpm realtime calulated
+2025-02-03 4:29:01 PM A03 spd rpm realtime calulated
+2025-02-03 4:29:01 PM SC_RAJA consumtion historian data calculated
+2025-02-03 4:29:01 PM A07 spd rpm realtime calulated
+2025-02-03 4:29:01 PM SC_GLORY1 spd rpm realtime calulated
+2025-02-03 4:29:01 PM A01 consumtion realtime data calculated
+2025-02-03 4:29:01 PM SC_GLORY3 flowrate realtime data calculated
+2025-02-03 4:29:01 PM BB_JINDAMANEE consumtion realtime data calculated
+2025-02-03 4:29:01 PM BB_GOMEN consumtion realtime data calculated
+2025-02-03 4:29:01 PM A03 consumtion historian data calculated
+2025-02-03 4:29:01 PM A04 flowrate historian data calculated
+2025-02-03 4:29:01 PM A06 consumtion historian data calculated
+2025-02-03 4:29:01 PM SC_SULTAN flowrate historian data calculated
+2025-02-03 4:29:01 PM A06 flowrate historian data calculated
+2025-02-03 4:29:01 PM A09 consumtion historian data calculated
+2025-02-03 4:29:01 PM A09 flowrate historian data calculated
+2025-02-03 4:29:01 PM A03 flowrate historian data calculated
+2025-02-03 4:29:01 PM SC_RAJA flowrate historian data calculated
+2025-02-03 4:29:01 PM A05 spd rpm historian calculated
+2025-02-03 4:29:01 PM A06 spd rpm historian calculated
+2025-02-03 4:29:01 PM SC_CHOLUEDEE consumtion historian data calculated
+2025-02-03 4:29:01 PM A02 flowrate historian data calculated
+2025-02-03 4:29:01 PM A05 consumtion historian data calculated
+2025-02-03 4:29:01 PM A04 spd rpm historian calculated
+2025-02-03 4:29:01 PM SC_GLORY3 consumtion historian data calculated
+2025-02-03 4:29:01 PM SC_GLORY3 spd rpm historian calculated
+2025-02-03 4:29:01 PM A09 spd rpm historian calculated
+2025-02-03 4:29:01 PM SC_GLORY1 consumtion historian data calculated
+2025-02-03 4:29:01 PM BB_MULIA flowrate historian data calculated
+2025-02-03 4:29:01 PM A07 consumtion historian data calculated
+2025-02-03 4:29:01 PM BB_JINDAMANEE flowrate historian data calculated
+2025-02-03 4:29:01 PM BB_MULIA consumtion historian data calculated
+2025-02-03 4:29:01 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:29:01 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:29:01 PM SC_CHOLUEDEE flowrate historian data calculated
+2025-02-03 4:29:01 PM SC_GLORY1 flowrate historian data calculated
+2025-02-03 4:29:01 PM A05 flowrate historian data calculated
+2025-02-03 4:29:01 PM SC_SULTAN spd rpm historian calculated
+2025-02-03 4:29:01 PM SC_CHOLUEDEE spd rpm historian calculated
+2025-02-03 4:29:01 PM SC_SULTAN consumtion historian data calculated
+2025-02-03 4:29:01 PM A04 consumtion historian data calculated
+2025-02-03 4:29:01 PM A01 spd rpm historian calculated
+2025-02-03 4:29:01 PM A07 flowrate historian data calculated
+2025-02-03 4:29:01 PM A02 spd rpm historian calculated
+2025-02-03 4:29:01 PM A03 spd rpm historian calculated
+2025-02-03 4:29:01 PM A07 spd rpm historian calculated
+2025-02-03 4:29:01 PM SC_GLORY1 spd rpm historian calculated
+2025-02-03 4:29:01 PM A01 consumtion historian data calculated
+2025-02-03 4:29:01 PM SC_GLORY3 flowrate historian data calculated
+2025-02-03 4:29:01 PM BB_JINDAMANEE consumtion historian data calculated
+2025-02-03 4:29:01 PM BB_GOMEN consumtion historian data calculated
+2025-02-03 4:30:03 PM app start
+2025-02-03 4:31:00 PM app tick
+2025-02-03 4:31:00 PM A01 GPS realtime calulated
+2025-02-03 4:31:00 PM A01 GPS historian calculated
+2025-02-03 4:31:00 PM A01 consumtion realtime data calculated
+2025-02-03 4:31:00 PM A02 consumtion realtime data calculated
+2025-02-03 4:31:00 PM A01 consumtion historian data calculated
+2025-02-03 4:31:00 PM A02 consumtion historian data calculated
+2025-02-03 4:31:00 PM A06 consumtion realtime data calculated
+2025-02-03 4:31:00 PM SC_SULTAN consumtion realtime data calculated
+2025-02-03 4:31:00 PM SC_CHOLUEDEE consumtion realtime data calculated
+2025-02-03 4:31:00 PM A03 consumtion realtime data calculated
+2025-02-03 4:31:00 PM A05 consumtion realtime data calculated
+2025-02-03 4:31:00 PM SC_GLORY1 consumtion realtime data calculated
+2025-02-03 4:31:00 PM A07 consumtion realtime data calculated
+2025-02-03 4:31:00 PM A09 consumtion realtime data calculated
+2025-02-03 4:31:00 PM A02 flowrate realtime data calculated
+2025-02-03 4:31:00 PM A03 flowrate realtime data calculated
+2025-02-03 4:31:00 PM BB_MAKMUR consumtion realtime data calculated
+2025-02-03 4:31:00 PM A03 spd rpm realtime calulated
+2025-02-03 4:31:00 PM A01 flowrate realtime data calculated
+2025-02-03 4:31:00 PM A05 flowrate realtime data calculated
+2025-02-03 4:31:00 PM A06 consumtion historian data calculated
+2025-02-03 4:31:00 PM SC_SULTAN consumtion historian data calculated
+2025-02-03 4:31:00 PM SC_CHOLUEDEE consumtion historian data calculated
+2025-02-03 4:31:00 PM A03 consumtion historian data calculated
+2025-02-03 4:31:00 PM SC_SULTAN flowrate realtime data calculated
+2025-02-03 4:31:00 PM A05 consumtion historian data calculated
+2025-02-03 4:31:00 PM SC_GLORY1 consumtion historian data calculated
+2025-02-03 4:31:00 PM BB_MULIA flowrate realtime data calculated
+2025-02-03 4:31:00 PM A07 consumtion historian data calculated
+2025-02-03 4:31:00 PM SC_GLORY1 flowrate realtime data calculated
+2025-02-03 4:31:00 PM SC_RAJA consumtion realtime data calculated
+2025-02-03 4:31:00 PM A09 flowrate realtime data calculated
+2025-02-03 4:31:00 PM A04 spd rpm realtime calulated
+2025-02-03 4:31:00 PM A09 consumtion historian data calculated
+2025-02-03 4:31:00 PM SC_RAJA flowrate realtime data calculated
+2025-02-03 4:31:00 PM A02 flowrate historian data calculated
+2025-02-03 4:31:00 PM A03 flowrate historian data calculated
+2025-02-03 4:31:00 PM A06 spd rpm realtime calulated
+2025-02-03 4:31:00 PM BB_MAKMUR consumtion historian data calculated
+2025-02-03 4:31:00 PM BB_MULIA consumtion realtime data calculated
+2025-02-03 4:31:00 PM A04 flowrate realtime data calculated
+2025-02-03 4:31:00 PM A06 flowrate realtime data calculated
+2025-02-03 4:31:00 PM SC_CHOLUEDEE spd rpm realtime calulated
+2025-02-03 4:31:00 PM SC_CHOLUEDEE flowrate realtime data calculated
+2025-02-03 4:31:00 PM A09 spd rpm realtime calulated
+2025-02-03 4:31:00 PM SC_GLORY3 flowrate realtime data calculated
+2025-02-03 4:31:00 PM A03 spd rpm historian calculated
+2025-02-03 4:31:00 PM A01 flowrate historian data calculated
+2025-02-03 4:31:00 PM A05 flowrate historian data calculated
+2025-02-03 4:31:01 PM SC_SULTAN flowrate historian data calculated
+2025-02-03 4:31:01 PM A07 spd rpm realtime calulated
+2025-02-03 4:31:01 PM A05 spd rpm realtime calulated
+2025-02-03 4:31:01 PM BB_MULIA flowrate historian data calculated
+2025-02-03 4:31:01 PM SC_GLORY3 spd rpm realtime calulated
+2025-02-03 4:31:01 PM SC_GLORY1 flowrate historian data calculated
+2025-02-03 4:31:01 PM A04 consumtion realtime data calculated
+2025-02-03 4:31:01 PM SC_RAJA consumtion historian data calculated
+2025-02-03 4:31:01 PM A09 flowrate historian data calculated
+2025-02-03 4:31:01 PM A04 spd rpm historian calculated
+2025-02-03 4:31:01 PM A07 flowrate realtime data calculated
+2025-02-03 4:31:01 PM SC_RAJA flowrate historian data calculated
+2025-02-03 4:31:01 PM SC_SULTAN spd rpm realtime calulated
+2025-02-03 4:31:01 PM BB_JINDAMANEE flowrate realtime data calculated
+2025-02-03 4:31:01 PM BB_MAKMUR flowrate realtime data calculated
+2025-02-03 4:31:01 PM A06 spd rpm historian calculated
+2025-02-03 4:31:01 PM BB_MULIA consumtion historian data calculated
+2025-02-03 4:31:01 PM A02 spd rpm realtime calulated
+2025-02-03 4:31:01 PM A01 spd rpm realtime calulated
+2025-02-03 4:31:01 PM A04 flowrate historian data calculated
+2025-02-03 4:31:01 PM SC_GLORY1 spd rpm realtime calulated
+2025-02-03 4:31:01 PM A06 flowrate historian data calculated
+2025-02-03 4:31:01 PM SC_GLORY3 consumtion realtime data calculated
+2025-02-03 4:31:01 PM SC_CHOLUEDEE spd rpm historian calculated
+2025-02-03 4:31:01 PM SC_CHOLUEDEE flowrate historian data calculated
+2025-02-03 4:31:01 PM A09 spd rpm historian calculated
+2025-02-03 4:31:01 PM SC_GLORY3 flowrate historian data calculated
+2025-02-03 4:31:01 PM A07 spd rpm historian calculated
+2025-02-03 4:31:01 PM A05 spd rpm historian calculated
+2025-02-03 4:31:01 PM SC_GLORY3 spd rpm historian calculated
+2025-02-03 4:31:01 PM BB_JINDAMANEE consumtion realtime data calculated
+2025-02-03 4:31:01 PM BB_GOMEN consumtion realtime data calculated
+2025-02-03 4:31:01 PM A02 spd rpm historian calculated
+2025-02-03 4:31:01 PM A04 consumtion historian data calculated
+2025-02-03 4:31:01 PM A07 flowrate historian data calculated
+2025-02-03 4:31:01 PM SC_SULTAN spd rpm historian calculated
+2025-02-03 4:31:01 PM BB_JINDAMANEE flowrate historian data calculated
+2025-02-03 4:31:01 PM BB_MAKMUR flowrate historian data calculated
+2025-02-03 4:31:01 PM A01 spd rpm historian calculated
+2025-02-03 4:31:01 PM SC_GLORY1 spd rpm historian calculated
+2025-02-03 4:31:01 PM SC_GLORY3 consumtion historian data calculated
+2025-02-03 4:31:01 PM BB_JINDAMANEE consumtion historian data calculated
+2025-02-03 4:31:01 PM BB_GOMEN consumtion historian data calculated
